@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robotics Club Registration</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>;
+	<style>
+		body {
+			background-image: url(bg.jpg);
+			height: 100%;
+			width: 100%;
+			background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
+
+		.container {
+			background-color: rgba(100, 149, 237, 0.4);;
+			margin-bottom: 30px;
+			width: 55%
+		}
+		.row {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		.bgtext {
+			background-color: #E7D27C;
+			text-align: center;
+		}
+		button {
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">	
+  <div class="row justify-content-center">
+	<div class="col-12 col-md-6 col-lg-4 mt-3">
+		<label>Name:</label>
+		<input type="text" class="form-control" name="name">			
+	</div>
+		<div class="col-12 col-md-6 col-lg-4 mt-3">
+			<label for="emailad">Email Address:</label>
+			<input type="email" placeholder="example@gmail.com" class="form-control" id="emailad" name="emailad">
+		</div>
+	</div>
+		
+
+	
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 col-lg-4">
+			<label>Age:</label>
+			<input type="text" class="form-control" name="age">
+		</div>
+
+		<div class="col-12 col-md-6 col-lg-4">
+			<label>Phone Number:</label>
+			<input type="text" class="form-control" name="#">
+		</div>
+	</div>
+		
+	<br>
+	<br>
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="bgtext">
+				<h6>What Topics Interest You?</h6>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input"> Coding and Programming</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input"> Electronics and Wiring</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input"> Designing and Blueprints</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="checkbox" class="form-check-input"> Testing of Mechanics and Robots</label>
+			</div>
+		</div>
+
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="bgtext">
+				<h6>What Level Are You?</h6>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="radio" class="form-check-input" name="radio">Novice</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="radio" class="form-check-input" name="radio">Intermediate</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="radio" class="form-check-input" name="radio">Advanced</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> <input type="radio" class="form-check-input" name="radio">Expert (For Professional/Business Level Classes)</label>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="form-group">
+				<div class="bgtext">
+					<h6>Preferred Type of Robotics Projects:</h6>
+				</div>
+				<select class="form-control" id="proj">
+  					<option value="" disabled selected>Select your option</option>
+  					<option value="1">Project 1</option>
+  					<option value="2">Project 2</option>
+  					<option value="3">Project 3</option>
+  					<option value="4">Project 4</option>
+				</select>
+				
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="row justify-content-center">
+		<div class="row justify-content-center">
+			<label for="soi">
+				<div class="bgtext">
+					<h6>Statement of Interest</h6>
+				</div>
+			</label>
+			<textarea class="form-control" rows="4" placeholder="Tell us about your Robotics story!" id="soi"></textarea>
+		</div>
+	</div>
+
+	<br>
+
+	<div style="text-align: center;">
+		<button type="button" class="btn btn-warning btn-sm">Submit</button>
+	</div>
+	
+	<br>
+	<br>
+</div>
+
+<!--Reference: Robotics background images – Browse 440,872 stock photos, vectors, and video. (n.d.). Adobe Stock. https://stock.adobe.com/ph/search?k=robotics+background&asset_id=881995462 -->
+
+</body>
+</html>
